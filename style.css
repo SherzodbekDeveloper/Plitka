@@ -1,0 +1,441 @@
+* {
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    background: url(./image/imgg.png);
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.header {
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-evenly;
+}
+
+.text {
+    display: flex;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    left: -120px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    margin: 0px 20px;
+    flex-wrap: wrap;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: left;
+
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.salom {
+    max-width: 1130px;
+    
+
+    flex-wrap: wrap;
+    margin: 60px auto 0px;
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.salom h3 {
+
+    text-align: left;
+    color: white;
+    font-size: 50px;
+
+}
+
+.salom h1 {
+    text-align: left;
+    color: #B78601;
+    font-size: 60px;
+}
+
+.salom p {
+
+    font-size: 24px;
+    color: white;
+}
+
+.button {
+    max-width: 244px;
+    height: 59px;
+    border-radius: 35px;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.image img {
+    max-width: 100%;
+
+}
+
+.image {
+    margin: 20px;
+}
+
+.clm1 {
+    display: grid;
+    margin: auto;
+    
+
+    grid-template-columns: auto auto auto;
+}
+
+.slm {
+    height: auto;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.slm p {
+    margin-left: 17px;
+    font-size: 22px;
+    color: #565656;
+}
+
+.qora {
+    max-width: 100%;
+    background: #181818;
+    height: 600px;
+    color: white;
+    margin-top: 50px;
+}
+
+.oq {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.qora>.ok {
+    max-width: 500px;
+
+    height: 200px;
+    justify-content: center;
+    display: flex;
+    text-align: left;
+}
+
+.qiz {
+    text-align: center;
+    display: grid;
+    margin: auto;
+
+    max-width: 1100px;
+    grid-template-columns: auto auto auto;
+
+
+}
+
+.qiz p {
+    font-size: 17px;
+    max-width: 400px;
+}
+
+.qiz h2 {
+    font-size: 22px;
+}
+
+.dlm {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    gap: 20px;
+}
+
+.dlm .column .im img {
+    width: 100%;
+
+}
+
+.column {
+    background: #181818;
+    color: white;
+
+}
+
+.column h4 {
+    margin: 20px 20px;
+    font-size: 18px;
+}
+
+.column p {
+    margin: 20px 20px;
+    font-size: 14px;
+}
+
+.pl {
+    height: 100px;
+    max-width: 580px;
+    justify-content: center;
+    display: flex;
+    text-align: left;
+
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.78px;
+
+
+}
+
+.plitka {
+    background: url(./image/alesia-kazantceva-283291-unsplash@2x.png) no-repeat;
+    max-width: 100%;
+    max-height: auto;
+    background-size: 100% 833px;
+    color: rgb(255, 255, 255);
+    margin-top: 100px;
+}
+
+.sm {
+    max-width: 900px;
+   
+
+}
+
+.lk {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 833px;
+}
+
+.sm h2 {
+    font-size: 75px;
+}
+
+.sm p {
+    font-size: 19px;
+}
+
+.footer {
+    background: #181818;
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+.sm {
+    text-shadow: 0 0 2px black;
+}
+
+.yoz {
+    justify-content: space-around;
+    display: flex;
+}
+
+.texl {
+    display: flex;
+    font-size: 18px;
+    color: white;
+
+}
+
+.yozuv {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    color: white;
+}
+
+.yozuv p {
+    width: 525px;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+
+}
+
+.nomer {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+
+@media screen and (max-width:1200px) {
+    .salom {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+    .salom {
+        justify-content: center;
+    }
+
+    .yozuv {
+        margin: 20px 20px;
+    }
+
+    .qiz {
+        grid-template-columns: auto;
+
+    }
+
+    .qora {
+        height: auto;
+    }
+
+    .column {
+        margin: 10px 20px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .dlm {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+    
+
+    .textlar {
+        margin: 20px 20px;
+    }
+
+    .clm1 {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:950px) {
+  
+
+    .sm {
+        margin: 20px 20px;
+    }
+
+    .yozuv p {
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+    .textlar {
+        justify-content: center;
+        text-align: center;
+        display: block;
+    }
+}
+@media screen and (max-width:600px) {
+    .clm1{
+        grid-template-columns: auto;
+    }
+    .dlm{
+        grid-template-columns: auto;
+    }
+    .yoz{
+        margin: none;
+        justify-content: center;
+        display: block;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .yozuv{
+    display:block;
+     text-align: center;
+    }
+    .nomer{
+        text-align: center;
+    }
+    .sm p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:520px) {
+    .header{
+        flex-wrap: wrap;
+    }
+    .yoz ul li a{
+        margin: 10px;
+        text-align: center;
+    }
+    ul{
+        text-align: center;
+    }
+    .header ul li a{
+        margin: 7px;
+        
+    }
+    .text{
+        left: 0;
+    }
+    
+}
+@media screen and (max-width:450px) {
+    .textlar{
+        justify-content: center;
+        text-align: center;
+        display: block;
+    }
+    .textlar h1{
+        text-align: center;
+    }
+    .textlar h3{
+        text-align: center;
+    }
+   .yoz ul{
+    display: block;
+   
+   }
+   .yoz ul li {
+  padding: 20px 20px;
+
+   }
+   .texl{
+    text-align: center;
+   }
+}
+@media screen  and (max-width:420px) {
+    .header ul li a{
+        text-align: left;
+        margin:5px;
+        flex-wrap: wrap;
+    }
+    .header h3{
+        font-size: 30px;
+    }
+}
